@@ -1,0 +1,1 @@
+cmd_/data/programming/elkdat/dev/module/timer1/timer1.ko := ld -r -m elf_x86_64 -T /data/programming/elkdat/linux/scripts/module-common.lds --build-id  -o /data/programming/elkdat/dev/module/timer1/timer1.ko /data/programming/elkdat/dev/module/timer1/timer1.o /data/programming/elkdat/dev/module/timer1/timer1.mod.o ;  true

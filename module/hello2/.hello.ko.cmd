@@ -1,0 +1,1 @@
+cmd_/data/programming/elkdat/dev/module/hello2/hello.ko := ld -r -m elf_x86_64 -T /data/programming/elkdat/linux/scripts/module-common.lds --build-id  -o /data/programming/elkdat/dev/module/hello2/hello.ko /data/programming/elkdat/dev/module/hello2/hello.o /data/programming/elkdat/dev/module/hello2/hello.mod.o ;  true
